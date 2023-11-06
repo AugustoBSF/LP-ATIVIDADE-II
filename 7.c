@@ -6,12 +6,12 @@
 int main(){
 setlocale(LC_ALL,"portuguese");
 int opcao;
-printf("Produto----------Código\n");
-printf("---------1\n");
-printf("Calça-----------2\n");
-printf("Sapato-----------3\n");
+printf("Produto----------------Código\n");
+printf("Novo Jogo-----------------1\n");
+printf("Carregar Jogo-------------2\n");
+printf("Configurações-----------3\n");
 
-printf("Digite o código com o opcao correspondente: ");
+printf("Digite o código com a opcao correspondente: ");
 scanf ("%d",&opcao);
 
 
@@ -21,22 +21,17 @@ system("cls || clear");
 switch (opcao)
 {
 case 1:
-    printf("\nCódigo selecionado: 1 ");
-    printf("\nProduto: Camiseta ");
-    printf("\nValor a pagar R$22,80 ");
+    printf("\nCarregando Novo Mundo... ");
+    
     break;
 
 case 2:
-    printf("\nCódigo selecionado: 2 ");
-    printf("\nProduto: Calça ");
-    printf("\nValor a pagar: R$77,90 ");
+    printf("\nCarregando Mundo... ");
     break;
 
     case 3:
-    printf("\nCódigo selecionado: 3 ");
-    printf("\nProduto: Sapato ");
-    printf("\nValor a pagar: R$199,90 ");
-    break;
+    printf("\nSensibilidade | Áudio | Brilho | Comandos ");
+          break;
 
 default:
     break;
